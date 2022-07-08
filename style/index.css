@@ -1,0 +1,27 @@
+#page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #e91d63;
+    color: white;
+}
+
+#page-header ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#page-header li {
+    padding: 30px 10px;
+}
+
+#page-header button {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+}
