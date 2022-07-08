@@ -14,11 +14,11 @@
         <h1>Page with Vue logic</h1>
         <nav>
             <ul>
-                <li>
-                    <button id="nav-btn-page-1">Page 1</button>
+                <li v-effect="$el.style.backgroundColor = (selected === 'page_1') ? 'black' : 'transparent'">
+                    <button id="nav-btn-page-1" @click="selected = 'page_1'">Page 1</button>
                 </li>
-                <li>
-                    <button id="nav-btn-page-2">Page 2</button>
+                <li v-effect="$el.style.backgroundColor = (selected === 'page_2') ? 'black' : 'transparent'">
+                    <button id="nav-btn-page-2" @click="selected = 'page_2'">Page 2</button>
                 </li>
             </ul>
         </nav>
